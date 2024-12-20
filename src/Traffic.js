@@ -33,7 +33,7 @@ const Traffic = () => {
 
   return (
     <div>
-      <div className="mt-6 bg-black h-80 w-30 rounded-2xl flex flex-col items-center justify-center">
+      <div className="mt-6 bg-black h-72 w-30 rounded-2xl flex flex-col items-center justify-center">
         <Red isActive={activeLight === "red"} />
         <Yellow isActive={activeLight === "yellow"} />
         <Green isActive={activeLight === "green"} />
